@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A place in nowhere to be found">
+		<meta name="keywords" content="personal, cyberpunk, vaporwave, programming, art">
+		<meta name="author" content="al1-ce">
+		<title> AtheOS </title>
+		<link rel="icon" href="/assets/images/logo.gif">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="/web/js/lib/jquery.iframetracker.min.js"></script>
+		<script src="/web/js/atheos.js"></script>
+        <!-- <script src="https://api.backendless.com/sdk/js/latest/backendless.min.js"></script>
+		<script src="/web/js/backendless.js"></script> -->
+		
+		<link rel="stylesheet" type="text/css" href="/web/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/web/css/oc-style.css">
+		
+		<script>
+			if (/Mobi|Android/i.test(navigator.userAgent)) {
+				window.open('/web/html/mobile.html', '_self');
+			}
+			
+			// var theme = getCurrentTheme();
+			
+			// $('head').append('<link rel="stylesheet" type="text/css" href="/web/css/theme-new.css">');
+			// $('head').append('<link rel="stylesheet" type="text/css" href="/web/css/theme-old.css">');
+		</script>
+	</head>
+	
+	<body>
+		<div id="loader" style="display:none;">
+			<h1 class="glitch" data-text="AtheOS">AtheOS</h1>
+			<h2 class="glitch" data-text="time waits for noone">time waits for noone</h2>
+		</div>
+		<audio id="snd-boot">
+						<source src="/assets/sounds/bootup.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-loaded">
+						<source src="/assets/sounds/loaded.ogg" type="audio/ogg">
+		</audio>
+
+		<script src="/web/js/atheos-boot.js"></script>
+
+		<div id="scanlines"></div>
+		
+		<div id="infobar">
+			<div id="infomenu">Win: 0</div>
+			<div id="infopath">[ C:/ユーザー/al1-ce/プロジェクトの頽廃/ ]</div>
+		</div>
+		
+		<div id="page">
+			<script src="/web/js/atheos-styling.js"></script>
+		</div> <!-- END OF PAGE -->
+		
+		
+		<!-------------------------------------TECH-------------------------------------------->
+		<audio id="snd-st-d-0" loop>
+						<source src="/assets/sounds/mystory.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-st-d-1" loop>
+						<source src="/assets/sounds/mystory_d1.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-st-d-2" loop>
+						<source src="/assets/sounds/mystory_d2.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-st-d-3" loop>
+						<source src="/assets/sounds/mystory_d3.ogg" type="audio/ogg">
+		</audio>
+
+		<script>
+			document.getElementById("snd-st-d-0").volume = 0.15;
+			document.getElementById("snd-st-d-1").volume = 0.15;
+			document.getElementById("snd-st-d-2").volume = 0.15;
+			document.getElementById("snd-st-d-3").volume = 0.15;
+		</script>
+	</body>
+</html>
