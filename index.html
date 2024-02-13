@@ -1,81 +1,79 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="A place in nowhere to be found">
-		<meta name="keywords" content="personal, cyberpunk, vaporwave, programming, art">
-		<meta name="author" content="al1-ce">
-		<title> AtheOS </title>
-		<link rel="icon" href="/assets/images/logo.gif">
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-		<script src="/web/js/lib/jquery.iframetracker.min.js"></script>
-		<script src="/web/js/atheos.js"></script>
-        <!-- <script src="https://api.backendless.com/sdk/js/latest/backendless.min.js"></script>
-		<script src="/web/js/backendless.js"></script> -->
-		
-		<link rel="stylesheet" type="text/css" href="/web/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/web/css/oc-style.css">
-		
-		<script>
-			if (/Mobi|Android/i.test(navigator.userAgent)) {
-				window.open('/web/html/mobile.html', '_self');
-			}
-			
-			// var theme = getCurrentTheme();
-			
-			// $('head').append('<link rel="stylesheet" type="text/css" href="/web/css/theme-new.css">');
-			// $('head').append('<link rel="stylesheet" type="text/css" href="/web/css/theme-old.css">');
-		</script>
-	</head>
-	
-	<body>
-		<div id="loader" style="display:none;">
-			<h1 class="glitch" data-text="AtheOS">AtheOS</h1>
-			<h2 class="glitch" data-text="time waits for noone">time waits for noone</h2>
-		</div>
-		<audio id="snd-boot">
-						<source src="/assets/sounds/bootup.ogg" type="audio/ogg">
-		</audio>
-		<audio id="snd-loaded">
-						<source src="/assets/sounds/loaded.ogg" type="audio/ogg">
-		</audio>
+    <head>
+        <title>* signal 3 _ *</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+         <link rel="stylesheet" type="text/css" href="jquery.modal.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="jquery.modal.js"></script>
+        <script src="script.js"></script>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+        <meta name="description" content=". An intra-solar story about the year 2074 .">  
+    </head>
+    <body>
+        <div id="music">
+            <audio autoplay>
+              <source src="https://a.pomf.space/jvezmuepvyjl.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div id="crt-overlay"></div>
+        <div id="nyjaOS">
+            <header>
+                <div id="bar">
+                    <div id="launcher"><a href="nyjaos.html" rel="modal:open">NyjaOS</a></div>
+                    <div id="status">
+                        <div id="time">
+				           <span id="clock"><span id="hours">00</span><span id="point">:</span><span id="min">00</span><span id="point">:</span><span id="sec">00</span> LOCAL // EARTH</span><br/><span id="date"></span>  <a href="connection.html" rel="modal:open" alt="Network Status" title="Network Status"><img src="connections.png"/></a> <a href="about.html" id="about" rel="modal:open"><img src="nyja.png" alt="About NyjaOS" title="About NyjaOS"/></a>
+			            </div>
+                    </div>
+                </div>
+            </header>
+            
+            <main>
 
-		<script src="/web/js/atheos-boot.js"></script>
+                <section id="deskicons">
+                
+                    <div class="icon">
+                        <a href="enceladus.html" rel="modal:open"><img src="icon08.png" alt="Enceladus" title="Enceladus"/><span class="icon-text">enceladus.jpg</span></a>
+                    </div>
+                
+                    <div class="icon">
+                        <a href="solarnet.html" rel="modal:open"><img src="icon05.png" alt="SolarNet" title="SolarNet"/><span class="icon-text">SolarNet</span></a>
+                    </div>
+                    
+                    <div class="icon">
+                        <a href="freechan.html" rel="modal:open"><img src="icon06.png" alt="freeChannel" title="freeChannel"/><span class="icon-text">freeChannel</span></a>
+                    </div>
 
-		<div id="scanlines"></div>
-		
-		<div id="infobar">
-			<div id="infomenu">Win: 0</div>
-			<div id="infopath">[ C:/ユーザー/al1-ce/プロジェクトの頽廃/ ]</div>
-		</div>
-		
-		<div id="page">
-			<script src="/web/js/atheos-styling.js"></script>
-		</div> <!-- END OF PAGE -->
-		
-		
-		<!-------------------------------------TECH-------------------------------------------->
-		<audio id="snd-st-d-0" loop>
-						<source src="/assets/sounds/mystory.ogg" type="audio/ogg">
-		</audio>
-		<audio id="snd-st-d-1" loop>
-						<source src="/assets/sounds/mystory_d1.ogg" type="audio/ogg">
-		</audio>
-		<audio id="snd-st-d-2" loop>
-						<source src="/assets/sounds/mystory_d2.ogg" type="audio/ogg">
-		</audio>
-		<audio id="snd-st-d-3" loop>
-						<source src="/assets/sounds/mystory_d3.ogg" type="audio/ogg">
-		</audio>
+                    <div class="icon">
+                        <a href="im-pathetic.html" rel="modal:open"><img src="icon01.png" alt="im-pathetic.txt" title="im-pathetic.txt"/><span class="icon-text">im-pathetic.txt</span></a>
+                    </div>
+                    
+                    <div class="icon">
+                        <a href="to-do.html" rel="modal:open"><img src="icon01.png" alt="to-do.txt" title="to-do.txt"/><span class="icon-text">to-do.txt</span></a>
+                    </div>
 
-		<script>
-			document.getElementById("snd-st-d-0").volume = 0.15;
-			document.getElementById("snd-st-d-1").volume = 0.15;
-			document.getElementById("snd-st-d-2").volume = 0.15;
-			document.getElementById("snd-st-d-3").volume = 0.15;
-		</script>
-	</body>
+                     <div class="icon">
+                        <a href="spacebux.html" rel="modal:open"><img src="icon03.png" alt="SpaceBux" title="SpaceBux"/><span class="icon-text">SpaceBux</span></a>
+                    </div>
+
+                     <div class="icon">
+                        <a href="quickreader.html" rel="modal:open"><img src="icon02.png" alt="quickReader5" title="quickReader5"/><span class="icon-text">quickReader5</span></a>
+                    </div>
+
+                     <div class="icon">
+                        <a href="archive.html" rel="modal:open"><img src="icon04.png" alt="freeChannel Archive" title="freeChannel Archive"/><span class="icon-text">freeChannel Archive</span></a>
+                    </div>
+                    
+                    <div class="icon">
+                        <a href="connection.html" rel="modal:open"><img src="icon07.png" alt="freeChannel Archive" title="freeChannel Archive"/><span class="icon-text">Network Status</span></a>
+                    </div>
+
+                </section>
+            </main>
+        </div>
+
+            
+
+    </body>
 </html>
