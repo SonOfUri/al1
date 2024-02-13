@@ -1,0 +1,223 @@
+var _g, _g2, _g3, _g4, _g5, _g6, _g7, _g8, _g9, _g10, _g11, _g12;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgSpinner(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    style: {
+      margin: "auto",
+      background: "none",
+      display: "block",
+      shapeRendering: "auto"
+    },
+    width: "200px",
+    height: "200px",
+    viewBox: "0 0 100 100",
+    preserveAspectRatio: "xMidYMid",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(0 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.9166666666666666s",
+    repeatCount: "indefinite"
+  })))), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(30 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.8333333333333334s",
+    repeatCount: "indefinite"
+  })))), _g3 || (_g3 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(60 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.75s",
+    repeatCount: "indefinite"
+  })))), _g4 || (_g4 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(90 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.6666666666666666s",
+    repeatCount: "indefinite"
+  })))), _g5 || (_g5 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(120 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.5833333333333334s",
+    repeatCount: "indefinite"
+  })))), _g6 || (_g6 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(150 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.5s",
+    repeatCount: "indefinite"
+  })))), _g7 || (_g7 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(180 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.4166666666666667s",
+    repeatCount: "indefinite"
+  })))), _g8 || (_g8 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(210 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.3333333333333333s",
+    repeatCount: "indefinite"
+  })))), _g9 || (_g9 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(240 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.25s",
+    repeatCount: "indefinite"
+  })))), _g10 || (_g10 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(270 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.16666666666666666s",
+    repeatCount: "indefinite"
+  })))), _g11 || (_g11 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(300 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "-0.08333333333333333s",
+    repeatCount: "indefinite"
+  })))), _g12 || (_g12 = /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(330 50 50)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 47,
+    y: 24,
+    rx: 3,
+    ry: 6,
+    width: 6,
+    height: 12
+  }, /*#__PURE__*/React.createElement("animate", {
+    attributeName: "opacity",
+    values: "1;0",
+    keyTimes: "0;1",
+    dur: "1s",
+    begin: "0s",
+    repeatCount: "indefinite"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgSpinner);
+export default __webpack_public_path__ + "static/media/spinner.db4f0ab86d25a3fc07e3a752a9dba916.svg";
+export { ForwardRef as ReactComponent };

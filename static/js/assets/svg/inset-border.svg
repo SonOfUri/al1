@@ -1,0 +1,32 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgInsetBorder(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 5,
+    height: 5,
+    fill: "gray",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0 0h5v5H0V2h2v1h1V2H0",
+    fill: "#fff"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0 0h4v4H0V1h1v2h2V1H0"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgInsetBorder);
+export default __webpack_public_path__ + "static/media/inset-border.a29cbb1f3f3a1474563a3d2a68944876.svg";
+export { ForwardRef as ReactComponent };

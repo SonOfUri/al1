@@ -1,0 +1,19 @@
+#webamp .window {
+	box-shadow: none;
+	border: 0;
+	padding: 0;
+}
+
+#webamp-context-menu {
+	z-index: 99 !important;
+}
+
+#webamp .equalizer-top {
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#webamp #equalizer-window .title-bar {
+	border: none;
+	border-radius: 0;
+}

@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+@font-face {
+  font-family: "Perfect DOS VGA 437";
+  src: url("./assets/fonts/Perfect_DOS_VGA_437.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Zero Wing";
+  src: url("./assets/fonts/zero-wing.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Richmond W01 Light";
+  src: url("https://db.onlinewebfonts.com/t/fa571770c20bc54f27b3fc045b3e26b6.eot");
+  src: url("https://db.onlinewebfonts.com/t/fa571770c20bc54f27b3fc045b3e26b6.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fa571770c20bc54f27b3fc045b3e26b6.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fa571770c20bc54f27b3fc045b3e26b6.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/fa571770c20bc54f27b3fc045b3e26b6.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fa571770c20bc54f27b3fc045b3e26b6.svg#Richmond W01 Light")
+      format("svg");
+}
+
+:root {
+  //* Colors */
+  --black: #212427;
+  --light-gray: #f2f0f0;
+  --gray: #e3e3e3;
+  --dark-gray: #919191;
+  --darker-gray: #545454;
+  --logo-blue: #1d4ed8;
+  --darker-blue: #001b8f;
+  --light-blue: #3e87c3;
+  --lighter-blue: #60a5fa;
+  --even-lighter-blue: #bfdbfe;
+  --lightest-blue: #dbeafe;
+  --red: #ff0000;
+  --dark-orange: #fc531a;
+  --light-orange: #f9c56c;
+  --even-lighter-orange: #ffc471;
+  --strange-yellow: #dbae2e;
+  --green: #34d399;
+  --light-green: #e6f8dd;
+  --medium-green: #a0c99c;
+  --dark-green: #059669;
+  --pepe-green: #328400;
+  --accent-color: #1d4ed8;
+
+  /* Ask Pepe */
+  --ask-pepe-light: #ffffc6;
+  --ask-pepe-bg: #fcf8c8;
+  --ask-pepe-bg-darker: #cbcb92;
+  --ask-pepe-bg-darkest: #99995f;
+  --ask-pepe-primary: #df0000;
+  --ask-pepe-secondary: #66669d;
+
+  /* Font sizes. */
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 3rem;
+
+  /* Line heights. */
+  --line-height-sm: 1.25;
+  --line-height-md: 1.5;
+
+  /* Letter spacings. */
+  --letter-spacing-sm: 0.05em;
+  --letter-spacing-md: 0.1em;
+
+  /* Font weights. */
+  --font-weight-light: 400;
+  --font-weight-med: 500;
+  --font-weight-bold: 600;
+  --font-weight-black: 700;
+}
+
+*,
+*:before,
+*:after,
+*:placeholder-shown {
+  font-family: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.memesweeper-container {
+  display: inline-table !important;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes dots {
+  0% {
+    content: ".";
+  }
+  33% {
+    content: "..";
+  }
+  66% {
+    content: "...";
+  }
+  100% {
+    content: ".";
+  }
+}
+
+.dots::after {
+  content: "";
+  display: inline-block;
+  animation: dots 1s steps(1, end) infinite;
+}
